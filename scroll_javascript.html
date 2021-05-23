@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Scroll suave na página</title>
+
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color: white;
+            }
+
+            body{
+                background-color: blueviolet;
+            }
+
+            nav{
+                background-color: rgb(94, 21, 161);
+                position: fixed;
+                top: 0;
+                width: 100%;
+                padding: 20px;
+            }
+            
+            .menu{
+                text-align: center;
+
+            }
+
+            .menu a{
+                text-decoration: none;
+                display: inline-block;
+                margin: 0 10px;
+                padding: 10px 20px;
+                border-radius: 5px;
+                border: 1px solid white;
+            }
+
+            .menu li{
+                display: inline-block;
+                list-style: none;
+            }
+
+            .menu li a:hover{
+                background-color: white;
+                color: blueviolet;
+            }
+
+            section{
+                text-align: center;
+                margin-top: 100px;
+                padding: 30px;
+            }
+
+            h1{
+                color: rgb(86, 244, 250);
+                margin: 30px;
+            }
+
+            h2{
+                font-size: 28pt;
+            }
+
+            p{
+                text-align: justify;
+                text-justify: newspaper;
+                margin: 20px;
+                padding: 20px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#servicos">Serviços</a>
+                    </li>
+                    <li>
+                        <a href="#galeria">Galeria</a>
+                    </li>
+                    <li>
+                        <a href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <h2>Teste de scroll suave com JavaScript</h2>
+
+            <div id="home">
+                <h1>Home</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Id harum possimus consequatur in ratione sint, nobis 
+                    asperiores fugiat omnis doloribus officia adipisci 
+                    maxime illo blanditiis enim! Voluptas ab nobis velit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Id harum possimus consequatur in ratione sint, nobis 
+                    asperiores fugiat omnis doloribus officia adipisci 
+                    maxime illo blanditiis enim! Voluptas ab nobis velit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Id harum possimus consequatur in ratione sint, nobis 
+                    asperiores fugiat omnis doloribus officia adipisci 
+                    maxime illo blanditiis enim! Voluptas ab nobis velit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Id harum possimus consequatur in ratione sint, nobis 
+                    asperiores fugiat omnis doloribus officia adipisci 
+                    maxime illo blanditiis enim! Voluptas ab nobis velit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Id harum possimus consequatur in ratione sint, nobis 
+                    asperiores fugiat omnis doloribus officia adipisci 
+                    maxime illo blanditiis enim! Voluptas ab nobis velit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Id harum possimus consequatur in ratione sint, nobis 
+                    asperiores fugiat omnis doloribus officia adipisci 
+                    maxime illo blanditiis enim! Voluptas ab nobis velit.
+                </p>
+            </div>
+
+            <div id="servicos">
+                <h1>Serviços</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Id harum possimus consequatur in ratione sint, nobis 
+                    asperiores fugiat omnis doloribus officia adipisci 
+                    maxime illo blanditiis enim! Voluptas ab nobis velit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Id harum possimus consequatur in ratione sint, nobis 
+                    asperiores fugiat omnis doloribus officia adipisci 
+                    maxime illo blanditiis enim! Voluptas ab nobis velit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Id harum possimus consequatur in ratione sint, nobis 
+                    asperiores fugiat omnis doloribus officia adipisci 
+                    maxime illo blanditiis enim! Voluptas ab nobis velit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Id harum possimus consequatur in ratione sint, nobis 
+                    asperiores fugiat omnis doloribus officia adipisci 
+                    maxime illo blanditiis enim! Voluptas ab nobis velit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Id harum possimus consequatur in ratione sint, nobis 
+                    asperiores fugiat omnis doloribus officia adipisci 
+                    maxime illo blanditiis enim! Voluptas ab nobis velit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Id harum possimus consequatur in ratione sint, nobis 
+                    asperiores fugiat omnis doloribus officia adipisci 
+                    maxime illo blanditiis enim! Voluptas ab nobis velit.
+                </p>
+            </div>
+
+            <div id="galeria">
+                <h1>Galeria</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Id harum possimus consequatur in ratione sint, nobis 
+                    asperiores fugiat omnis doloribus officia adipisci 
+                    maxime illo blanditiis enim! Voluptas ab nobis velit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Id harum possimus consequatur in ratione sint, nobis 
+                    asperiores fugiat omnis doloribus officia adipisci 
+                    maxime illo blanditiis enim! Voluptas ab nobis velit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Id harum possimus consequatur in ratione sint, nobis 
+                    asperiores fugiat omnis doloribus officia adipisci 
+                    maxime illo blanditiis enim! Voluptas ab nobis velit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Id harum possimus consequatur in ratione sint, nobis 
+                    asperiores fugiat omnis doloribus officia adipisci 
+                    maxime illo blanditiis enim! Voluptas ab nobis velit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Id harum possimus consequatur in ratione sint, nobis 
+                    asperiores fugiat omnis doloribus officia adipisci 
+                    maxime illo blanditiis enim! Voluptas ab nobis velit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Id harum possimus consequatur in ratione sint, nobis 
+                    asperiores fugiat omnis doloribus officia adipisci 
+                    maxime illo blanditiis enim! Voluptas ab nobis velit.
+                </p>
+            </div>
+
+            <div id="contato">
+                <h1>Contato</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Id harum possimus consequatur in ratione sint, nobis 
+                    asperiores fugiat omnis doloribus officia adipisci 
+                    maxime illo blanditiis enim! Voluptas ab nobis velit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Id harum possimus consequatur in ratione sint, nobis 
+                    asperiores fugiat omnis doloribus officia adipisci 
+                    maxime illo blanditiis enim! Voluptas ab nobis velit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Id harum possimus consequatur in ratione sint, nobis 
+                    asperiores fugiat omnis doloribus officia adipisci 
+                    maxime illo blanditiis enim! Voluptas ab nobis velit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Id harum possimus consequatur in ratione sint, nobis 
+                    asperiores fugiat omnis doloribus officia adipisci 
+                    maxime illo blanditiis enim! Voluptas ab nobis velit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Id harum possimus consequatur in ratione sint, nobis 
+                    asperiores fugiat omnis doloribus officia adipisci 
+                    maxime illo blanditiis enim! Voluptas ab nobis velit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Id harum possimus consequatur in ratione sint, nobis 
+                    asperiores fugiat omnis doloribus officia adipisci 
+                    maxime illo blanditiis enim! Voluptas ab nobis velit.
+                </p>
+            </div>
+        </section>
+
+        <script>
+
+            const menuItems = document.querySelectorAll('.menu a[href^="#"]') // seleciona somente os href que começam com '#'
+
+            menuItems.forEach(item => { // identificar o clique no menu
+                item.addEventListener('click', scrollToIdOnClick)
+            })
+
+            function scrollToIdOnClick(event){ // verificar o item que foi clicado e fazer referencia com o alvo
+                event.preventDefault()
+                const to = getScrollTopByHref(event.target) - 90
+                
+                scrollToPosition(to)
+            }
+
+            function getScrollTopByHref(element){ // verificar a distancia entre o alvo e o topo
+                const id = element.getAttribute('href')
+                return document.querySelector(id).offsetTop
+            }
+
+            function scrollToPosition(to){ // animar o scroll até o alvo 
+                window.scroll({
+                    top: to,
+                    behavior: "smooth"
+                })
+            }
+        </script>        
+    </body>
+</html>
